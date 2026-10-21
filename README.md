@@ -54,6 +54,18 @@ name on its own. The second line above shows why: there is no way for Claude to 
 student's surname, and a confident guess is worse than leaving it marked "to be confirmed."
 When I confirm a new name, it goes on the list for the next meeting.
 
+## Why not an off-the-shelf notetaker
+
+Notetaking apps already summarize meetings. Three things make this different:
+
+- **It makes the record, not notes.** The output is minutes in the organization's own format
+  and house style, ready to file and send, not a summary someone still has to rewrite.
+- **It stops on names it is unsure of.** A notetaker publishes its best guess. This workflow
+  waits for me to confirm every uncertain name before a word of the minutes is written.
+- **In-person meetings stay on my laptop.** A notetaker needs to join a call or upload the
+  audio. A recording of an in-person meeting is transcribed on my own laptop, so it never
+  leaves it.
+
 ## What goes into the AI
 
 I treat a prompt to a cloud model like a public forum unless I'm working in a secured
